@@ -1,0 +1,42 @@
+header {
+	background-color: lightblue;
+	height: 50px;
+}
+
+.nav {
+	list-style: none;
+}
+
+.nav li {
+	display: inline;
+	margin-right: 20px;
+}
+
+.nav li a {
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+}
+
+.colorPickerWrap {
+	position: relative;
+}
+
+.colorPickerWrap h3 {
+	margin-left: 20px;
+}
+
+.colorPicker {
+	position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.photo {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.photos {
+	margin-top: 50px;
+}
