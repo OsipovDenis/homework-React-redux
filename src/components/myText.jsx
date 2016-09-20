@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-export default class MyText extends React.Component {
+class MyText extends React.Component {
 	render(){
 		let body = document.querySelector('body');
 		body.style.background = '#ffffff';
